@@ -2,18 +2,29 @@
 
 
 ## Dependencies
-
-
+  numpy==1.18.1\
+  pandas==1.1.5\
+  scipy==1.4.1\
+  shap==0.37.0\
+  matplotlib==2.2.3\
+  re=2.2.1\
+  imblearn==0.7.0\
+  sklearn==0.23.0\
+  tensorflow==1.15.0\
+  keras==2.3.1\
+  xgboost==1.2.1\
+  lightgbm==3.1.0
+  
 ## Code structures
-- Preprocessing
+- **Preprocessing**
   
   Data screening and preprocessing
   
-- Utility
+- **Utility**
 
   Customizable functions for data preprocessing, model training and evaluation
   
-- Train
+- **Train**
   - S1*.py
     Feature importance ranking (tree-based impurity & Shap values)
   - S2*.py
@@ -21,33 +32,32 @@
   - S3*.py
     Model construction & training
   
-- Evaluation and Visualization
+- **Evaluation and Visualization**
 
   - Feature analysis
   - Data & Model visualization
   
-- Deploy
+- **Deploy**
 
   This contains the pretrained weights for five xgboost models (5-fold crossvalidation).
   
   You can cusotomize the input.csv with specified values of predictors and run xgb_deploy.py to generate a output.csv file with predicted probabilities
-  - ECG PR intervel
+  - *ECG PR intervel*
     - recommended range: [120 - 240] (based on quantile 0.01 - 0.99 in CNSR-III)
-  - Age
+  - *Age*
     - recommended range: [35 - 90] (based on quantile 0.01 - 0.99 in CNSR-III)
-  - Left Atrium Diameter
+  - *Left Atrium Diameter*
     - recommended range: [24 - 52] (based on quantile 0.01 - 0.99 in CNSR-III)
-  - ECG Heart Rate
+  - *ECG Heart Rate*
     - recommended range: [45 - 115] (based on quantile 0.01 - 0.99 in CNSR-III)
-  - Whether is cortical Infarct
+  - *Whether is cortical Infarct*
     - 0: no infarct observed
     - 1: infarct observed: cortical infarct
     - 2: infarct observed: not cortical infarct
   
 
 
-The pre-trained weights can only been tested on the purpose of researches. This has not been reviewed or approved by the food and drug administration or by any other agency.
-You acknowledge and agree that clinical applications are neither recommended nor advised.
+### The pre-trained weights can only been tested on the purpose of researches. This has not been reviewed or approved by the food and drug administration or by any other agency. You acknowledge and agree that clinical applications are neither recommended nor advised.
 
 
 
