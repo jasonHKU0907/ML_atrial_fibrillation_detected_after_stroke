@@ -12,12 +12,12 @@
   Customizable functions for data preprocessing and model evaluation
   
 - Train
-  S1*.py
-  - Feature importance ranking (tree-based impurity & Shap values)
-  S2*.py
-  - Sequential forward feature selection
-  S3*.py
-  - Model construction & training
+  - S1*.py
+    Feature importance ranking (tree-based impurity & Shap values)
+  - S2*.py
+    Sequential forward feature selection
+  - S3*.py
+    Model construction & training
   
 - Evaluation and Visualization
   Feature analysis
