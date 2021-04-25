@@ -57,9 +57,7 @@
   
 
 
-### The pre-trained weights can only been tested on the purpose of researches. This has not been reviewed or approved by the food and drug administration or by any other agency. You acknowledge and agree that clinical applications are neither recommended nor advised.
-
-
+### THE PRE-TRAINED WEIGHTS CAN ONLY BE TESTED ON THE PURPOSE OF RESEARCHES. THIS HAS NOT BEEN REVIEWED OR APPROVED BY THE FOOD AND DRUG ADMINISTRATION OR BY ANY OTHER AGENCIES. YOU SHOULD ACKNOWLEDGE AND AGREE THAT CLINICAL APPLICATIONS ARE NEITHER RECOMMENDED NOR ADVISED.
 
   
 
