@@ -6,10 +6,12 @@
 
 ## Code structures
 - Preprocessing
+  
   Data screening and preprocessing
   
-- Utitilies
-  Customizable functions for data preprocessing and model evaluation
+- Utility
+
+  Customizable functions for data preprocessing, model training and evaluation
   
 - Train
   - S1*.py
@@ -20,11 +22,14 @@
     Model construction & training
   
 - Evaluation and Visualization
-  Feature analysis
-  Data & Model visualization
+
+  - Feature analysis
+  - Data & Model visualization
   
 - Deploy
-  This contains the pretrained weights for five xgboost models (5-fold crossvalidation)
+
+  This contains the pretrained weights for five xgboost models (5-fold crossvalidation).
+  
   You can cusotomize the input.csv with specified values of predictors and run xgb_deploy.py to generate a output.csv file with predicted probabilities
   - ECG PR intervel
     - recommended range: [120 - 240] (based on quantile 0.01 - 0.99 in CNSR-III)
